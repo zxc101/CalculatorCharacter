@@ -1,0 +1,162 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_graund_with_castle"
+    android:columnCount="5"
+    android:rowCount="6"
+    tools:context="com.example.al.calculatorcharacter.Fragments.Enemy3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/heroTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_columnSpan="3"
+        android:textColor="@color/enemysTextColor"
+        android:text="@string/enemy3"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/attackTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_row="1"
+        android:textColor="@color/enemysTextColor"
+        android:text="@string/attack"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/attackET"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="3"
+        android:layout_row="1"
+        android:textColor="@color/enemysTextColor"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/lifeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_row="2"
+        android:textColor="@color/enemysTextColor"
+        android:text="@string/life"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/lifeET"
+        android:layout_width="280dp"
+        android:layout_height="41dp"
+        android:layout_column="1"
+        android:layout_columnSpan="3"
+        android:layout_row="2"
+        android:textColor="@color/enemysTextColor"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/critTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_row="3"
+        android:textColor="@color/enemysTextColor"
+        android:text="@string/crit"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/critET"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="3"
+        android:layout_row="3"
+        android:textColor="@color/enemysTextColor"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/percentTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="25dp"
+        android:layout_row="4"
+        android:textColor="@color/enemysTextColor"
+        android:text="@string/percent"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/attackPercentET"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:textColor="@color/enemysTextColor"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/critPercentET"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:textColor="@color/enemysTextColor"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/dodgePercentET"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:textColor="@color/enemysTextColor"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/attackPercentTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/enemysTextColor"
+        android:text="@string/attack"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/critPercentTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="5"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/enemysTextColor"
+        android:text="@string/crit"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dodgePercentTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="5"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/enemysTextColor"
+        android:text="@string/dodge"
+        android:textSize="20sp" />
+</GridLayout>

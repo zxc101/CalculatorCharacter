@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hero"
+            android:title="Герой" />
+        <item
+            android:id="@+id/nav_enemy1"
+            android:title="Противник 1" />
+        <item
+            android:id="@+id/nav_enemy2"
+            android:title="Противник 2" />
+        <item
+            android:id="@+id/nav_enemy3"
+            android:title="Противник 3" />
+        <item
+            android:id="@+id/nav_enemy4"
+            android:title="Противник 4" />
+        <item
+            android:id="@+id/nav_enemy5"
+            android:title="Противник 5" />
+    </group>
+
+    <item android:title="Статы">
+        <menu>
+            <item
+                android:id="@+id/nav_stat_hero"
+                android:title="Герой" />
+            <item
+                android:id="@+id/nav_stat_enemy1"
+                android:title="Противник 1" />
+            <item
+                android:id="@+id/nav_stat_enemy2"
+                android:title="Противник 2" />
+            <item
+                android:id="@+id/nav_stat_enemy3"
+                android:title="Противник 3" />
+            <item
+                android:id="@+id/nav_stat_enemy4"
+                android:title="Противник 4" />
+            <item
+                android:id="@+id/nav_stat_enemy5"
+                android:title="Противник 5" />
+        </menu>
+    </item>
+
+</menu>

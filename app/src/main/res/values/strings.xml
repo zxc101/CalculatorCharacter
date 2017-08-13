@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Калькулятор персонажей</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="attack">Атака</string>
+    <string name="life">Жизнь</string>
+    <string name="crit">Крит</string>
+    <string name="percent">%</string>
+    <string name="dodge">Уворот</string>
+    <string name="hero">Герой</string>
+    <string name="enemy1">Противник 1</string>
+    <string name="enemy2">Противник 2</string>
+    <string name="enemy3">Противник 3</string>
+    <string name="enemy4">Противник 4</string>
+    <string name="enemy5">Противник 5</string>
+    <string name="vs">VS</string>
+    <string name="countWin">Количество побед:</string>
+    <string name="damage">Внёс урона:</string>
+    <string name="countFirstAttack">Первым атакавал:</string>
+    <string name="countAllAttack">Общее количество атак:</string>
+    <string name="countAttack">Количество атак:</string>
+    <string name="countCriticalAttack">Количество критических атак:</string>
+    <string name="countDodge">Количество уворотов:</string>
+    <string name="countMatches">Количество матчей</string>
+</resources>

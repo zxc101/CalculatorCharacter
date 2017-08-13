@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.al.calculatorcharacter.Fragments.HeroesStats">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/countWinTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/heroesTextColor"
+        android:text="@string/countWin"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/damageTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/heroesTextColor"
+        android:text="@string/damage"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/countFirstAttackTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/heroesTextColor"
+        android:text="@string/countFirstAttack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/countAllAttackTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/heroesTextColor"
+        android:text="@string/countAllAttack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/countAttackTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/heroesTextColor"
+        android:text="@string/countAttack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/countCriticalAttackTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/heroesTextColor"
+        android:text="@string/countCriticalAttack"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/countDodgeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/heroesTextColor"
+        android:text="@string/countDodge"
+        android:textSize="15sp" />
+
+</LinearLayout>
